@@ -5,6 +5,8 @@ public class Main {
         cubeAction action = new cubeAction();
         ArrayList<ArrayList<ArrayList<Integer>>> cube = genCube.cube;
         System.out.println(genCube.printCube());
-        action.moveR(false, 0);
+        action.moveR( 0);
+        System.out.println(new cubeSide(cube.get(1)).getRow(1));
+        doafwweefqfew
     }
 }

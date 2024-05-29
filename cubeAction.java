@@ -4,10 +4,9 @@ public class cubeAction extends genCube {
     ArrayList<ArrayList<ArrayList<Integer>>> cube = genCube.cube;
     cubeSide a = new cubeSide();
     
-    public void moveR(boolean prime, int side) {
-        if(!prime) {
-            System.out.println(cube.get(side));
-        }
+    public void moveR(int row) {
+        ArrayList<ArrayList<ArrayList<Integer>>> primary = cube;
+
     }
 
     public void moveL(boolean prime, int side) {

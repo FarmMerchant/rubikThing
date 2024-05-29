@@ -50,4 +50,20 @@ public class cubeSide {
         }
         return tempCol;
     }
+
+    public void setRow(int row, ArrayList<Integer> newRow) {
+        for(int i = 0; i < side.size(); i++) {
+            side.get(i).set(row, newRow.get(i));
+        }
+    }
+
+    /*public void setCol(int col, ArrayList<ArrayList<Integer>> newCol) {
+        for(int i = 0; i < side.size(); i++) {
+            side
+        }
+    }*/
+
+    public int getUnder(int i) {
+        return -1;
+    }
 }
